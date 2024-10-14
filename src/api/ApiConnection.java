@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public class ApiConnection {
     String BASE_URL = "https://v6.exchangerate-api.com/v6/";
-    String API_KEY = "76dd6d7d0cd3cafa4ad6fc9f";
+    String API_KEY = "YOUR_API_KEY_HERE";
 
     public String currencyCodeApi() throws IOException, InterruptedException {
         String url = BASE_URL + API_KEY + "/codes";
